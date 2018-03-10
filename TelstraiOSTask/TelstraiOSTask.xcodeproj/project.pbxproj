@@ -13,7 +13,7 @@
 		C71D70C72053B2BD005FA272 /* FactsDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C71D70C62053B2BD005FA272 /* FactsDataModel.m */; };
 		C71D70CB2053C527005FA272 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C71D70CA2053C527005FA272 /* NetworkManager.m */; };
 		C71D70CE2053D972005FA272 /* FactsListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C71D70CD2053D972005FA272 /* FactsListViewModel.m */; };
-		C73FC2D020544BEA002A0DBD /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C73FC2CF20544BEA002A0DBD /* placeholder.png */; };
+		C7272E972054537C000EB83D /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C7272E962054537B000EB83D /* placeholder.png */; };
 		D6D5B35920527FF700BC613D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5B35820527FF700BC613D /* AppDelegate.m */; };
 		D6D5B35C20527FF700BC613D /* FactsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D5B35B20527FF700BC613D /* FactsListViewController.m */; };
 		D6D5B35F20527FF700BC613D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D5B35D20527FF700BC613D /* Main.storyboard */; };
@@ -56,7 +56,7 @@
 		C71D70CA2053C527005FA272 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		C71D70CC2053D972005FA272 /* FactsListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactsListViewModel.h; sourceTree = "<group>"; };
 		C71D70CD2053D972005FA272 /* FactsListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactsListViewModel.m; sourceTree = "<group>"; };
-		C73FC2CF20544BEA002A0DBD /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = ../../../../../Downloads/placeholder.png; sourceTree = "<group>"; };
+		C7272E962054537B000EB83D /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 		D6D5B35420527FF700BC613D /* TelstraiOSTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelstraiOSTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D5B35720527FF700BC613D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6D5B35820527FF700BC613D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 		C71D70CF2053F103005FA272 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				C73FC2CF20544BEA002A0DBD /* placeholder.png */,
+				C7272E962054537B000EB83D /* placeholder.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -353,7 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D5B36720527FF700BC613D /* LaunchScreen.storyboard in Resources */,
-				C73FC2D020544BEA002A0DBD /* placeholder.png in Resources */,
+				C7272E972054537C000EB83D /* placeholder.png in Resources */,
 				D6D5B36420527FF700BC613D /* Assets.xcassets in Resources */,
 				D6D5B35F20527FF700BC613D /* Main.storyboard in Resources */,
 			);
