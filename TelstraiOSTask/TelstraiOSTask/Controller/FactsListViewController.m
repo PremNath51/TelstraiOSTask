@@ -30,6 +30,10 @@
     return self;
 }
 
+- (void)tellClassName { //testing XCtest case
+    NSLog(@"this is Table_design_view");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = self.viewModel.titleFromDataModel;
