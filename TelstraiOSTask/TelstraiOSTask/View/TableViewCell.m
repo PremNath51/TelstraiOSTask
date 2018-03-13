@@ -28,6 +28,8 @@
 
 const int PADDING = 7;
 
+#pragma mark - Initializing the Table view UI controls
+
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     self = [super initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseIdentifier];
     if (self) {
@@ -93,6 +95,7 @@ const int PADDING = 7;
     // Initialization code
     [self initialise];
 }
+#pragma mark - TableView overridden methods
 
 - (void)prepareForReuse {
     [super prepareForReuse];
@@ -113,6 +116,9 @@ const int PADDING = 7;
     //according to apple super should be called at end of method
     [super updateConstraints];
 }
+
+#pragma mark - Binding the Data to the Table view cell
+
 // Binding Data to Title Text
 
 - (void) setTitleLabelText:(NSString *)text {

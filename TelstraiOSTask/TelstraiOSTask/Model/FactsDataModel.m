@@ -16,6 +16,8 @@ static id NSNullify(id _Nullable x) {
     return (x == nil || x == NSNull.null) ? NSNull.null : x;
 }
 
+#pragma mark - Intializing the overrriden methods
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface FactsDataModel (JSONConversion)
@@ -40,7 +42,7 @@ static id map(id collection, id (^f)(id value)) {
     return result;
 }
 
-#pragma mark - JSON serialization
+#pragma mark - JSON data model serialization delegate methods
 
 FactsDataModel *_Nullable FactsDataModelFromData(NSData *data, NSError **error)
 {

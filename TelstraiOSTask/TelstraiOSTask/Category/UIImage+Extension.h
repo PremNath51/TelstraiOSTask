@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (Extensions)
-
+// Declaration of UIImage delegate methods
 + (UIImage *)emptyImageWithSize:(CGSize)size;
 - (UIImage *)resizeImageToSize:(CGSize)size;
 

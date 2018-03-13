@@ -30,9 +30,12 @@
     return self;
 }
 
-- (void)tellClassName { //testing XCtest case
+#pragma mark - Unit testing XCtest case
+
+- (void)tellClassName {
     NSLog(@"this is Table_design_view");
 }
+#pragma mark - Overridden methods implementation
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -43,7 +46,7 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 }
-// Creating Refresh control methods
+#pragma mark - Creating Refresh control methods
 
 - (void)createRefreshControl {
     UIRefreshControl *refreshControl = [UIRefreshControl new];
@@ -68,7 +71,7 @@
     self.tableView.contentInset = UIEdgeInsetsMake(10.f, 0.f, 10.f, 0.f);
 }
 
-// FactListController Refresh delegate methods
+#pragma mark - FactListController Refresh delegate methods
 
 - (void)performRefresh {
     [self.refreshControl beginRefreshing];
@@ -87,7 +90,7 @@
     [self.refreshControl endRefreshing];
 }
 
-// FactListController delegate methods
+#pragma mark - Table View delegate methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return self.viewModel.numberOfSectionsFromDataModel;

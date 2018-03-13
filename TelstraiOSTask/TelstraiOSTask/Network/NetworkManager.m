@@ -21,7 +21,7 @@
 @implementation NetworkManager
 
 #pragma mark -
-#pragma mark Constructors
+#pragma mark  Method Declaration of Constructors
 
 static NetworkManager *sharedManager = nil;
 - (id)init {
@@ -54,6 +54,7 @@ static NetworkManager *sharedManager = nil;
         self.progressHUD = nil;
     }
 }
+// NSURL Networking manage with URL
 
 - (AFHTTPSessionManager*)getNetworkingManagerWithURL{
     if (self.networkingManager == nil) {

@@ -10,6 +10,8 @@
 
 @implementation UIImage (Extensions)
 
+#pragma mark - Declaration of UIImage delegate methods
+
 + (UIImage *)emptyImageWithSize:(CGSize)size
 {
     UIGraphicsBeginImageContext(size);

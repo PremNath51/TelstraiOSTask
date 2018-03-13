@@ -12,7 +12,7 @@
 @interface FactsListViewModel : NSObject
 
 - (instancetype)initWithFactsDataModel:(FactsDataModel *)factsDataModel;
-
+ // Declaration of Viewmodel Delegate methods
 - (NSString *)titleFromDataModel;
 - (NSUInteger)numberOfSectionsFromDataModel;
 - (NSUInteger)numberOfRowsFromDataModel;

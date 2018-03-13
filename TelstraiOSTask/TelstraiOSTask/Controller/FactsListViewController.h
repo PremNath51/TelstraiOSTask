@@ -14,6 +14,7 @@
 // Declaration of Viewmodel to download the data from internet
 
 - (instancetype)initWithViewModel:(FactsListViewModel *)viewModel;
+// Declaration of Testcase method
 - (void)tellClassName;
 
 @end

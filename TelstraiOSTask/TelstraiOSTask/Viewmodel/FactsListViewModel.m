@@ -18,7 +18,7 @@
 
 @implementation FactsListViewModel
 
-#pragma mark - FactsListViewModel
+#pragma mark - FactsListViewModel overridden methods
 
 - (instancetype)initWithFactsDataModel:(FactsDataModel *)factsDataModel {
     self = [super init];
@@ -39,7 +39,7 @@
     return self.factsDataModel.rows.count;
 }
 
-#pragma mark - Data Source
+#pragma mark - Data Source Binding to the collection
 
 - (NSString *)titleAtIndexPath:(NSIndexPath *)indexPath {
     FactRow* rowItem = [self factRowsAtIndexPath:indexPath];

@@ -24,6 +24,7 @@
 
     return YES;
 }
+// Get the JSON data from the URL
 
 -(void)getFactsData {
     [[NetworkManager sharedManager] getFactsWithSuccess:^(id responseObject) {
